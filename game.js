@@ -50,7 +50,7 @@ function checkAnswer(currentLevel) {
         setTimeout(function() {
             $("body").removeClass("game-over"); // Remove "game-over" class after 200 milliseconds
         }, 200);
-        $("#level-title").text("Game Over, Press Any Key to Restart"); // Change h1 title
+        $("#level-title").text("Game Over, Refresh the Page"); // Change h1 title
         startOver(); // Call startOver() if the user gets the sequence wrong
     }
 }
