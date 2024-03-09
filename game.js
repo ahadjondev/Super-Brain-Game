@@ -38,7 +38,7 @@ function checkAnswer(currentLevel) {
         // Success case
         if (userClickedPattern.length === gamePattern.length) {
             // Check if sequence completed successfully
-            setTimeout(function() {
+            setTimeout(function()  {
                 nextSequence();
                 userClickedPattern = []; // Reset userClickedPattern to an empty array
             }, 1000);
